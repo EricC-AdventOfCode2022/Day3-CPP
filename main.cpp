@@ -91,10 +91,6 @@ int part_1(const vector<string> data)
         }
     }
 
-    for (int i = 0; i < characters.size(); i++)
-    {
-        cout << characters[i] << endl;
-    }
     return score;
 }
 int part_2(const vector<string> data)
